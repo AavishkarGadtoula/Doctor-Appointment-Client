@@ -1,0 +1,82 @@
+
+
+:root {
+    --color-grey-primary: #f0f0f0;
+    --color-yellow-primary: goldenrod;   
+    --color-orange-primary: darkorange;
+    --color-green-primary: mediumseagreen;
+  }
+
+
+  .profileList{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding: 0.8rem;
+  }
+
+  .profileCard{
+    position: relative;
+    background-color: var(--color-grey-primary);
+    margin: 1rem;
+    flex: 1 0 25rem;
+    max-width: 25rem;
+    max-height: 60rem;
+    transition: 0.2s;
+    border: 2px solid #16a085;
+    border-radius: 15px;
+    cursor: pointer;
+
+
+  }
+
+  .profileCard:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+    border: 2px solid #16a066;
+  }
+
+  .profileImage img{
+    margin-top: 2rem;
+    max-width: 100%;
+    margin-left: 2rem;
+    height: 100px;
+    border-radius: 15%;
+  }
+
+  .profileCard__content {
+    margin: 2rem;
+    line-height: 1.5rem;
+  }
+
+  .profileName{
+    font-size: 1.5rem;
+  }
+
+  .profile_desc{
+    font-size: 16px;
+    
+  }
+
+  .delete-doctor{
+    color: #16a066;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+
+  .delete-doctor:hover{
+    color: #229180;
+  }
+
+  .edit-doctor{
+    color: #5b063ab6;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+
+  .edit-doctor:hover{
+    color: #16a085;
+
+  }

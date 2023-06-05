@@ -1,0 +1,65 @@
+
+
+.landing-page{
+    height: 100%;
+
+}
+/* .landing-nav{
+    height: 12vh;
+    box-shadow: 0 .5rem 1.5rem rgba(75, 75, 75, 0.1);
+
+} */
+.register-route{
+    text-decoration: none;
+    width: 250px;
+    position:absolute;
+    
+    /* z-index: 1000; */
+    margin-top:450px;
+    margin-left: 80px;
+    
+}
+
+.landing-button{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #16a085, #16a066);
+}
+
+.landing-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    
+
+}
+
+.landing-image{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.landing-container-left{
+    position: absolute;
+    margin-top: 10rem; 
+     margin-left: 6rem;
+}
+
+.landing-heading{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.landing-p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+

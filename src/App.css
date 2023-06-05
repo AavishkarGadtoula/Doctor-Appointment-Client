@@ -1,0 +1,6 @@
+.Dropdown-root{
+    width: 100%;
+}
+.dropdown-error{
+    border: 1px red solid;
+}

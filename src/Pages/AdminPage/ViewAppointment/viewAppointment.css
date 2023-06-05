@@ -1,0 +1,25 @@
+/* .view-appointment-table {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 0.5rem;
+    overflow: hidden;
+    position: fixed;
+  }
+    
+
+
+tr{
+    border-bottom: 2px solid #16a085;
+}
+
+th {
+    border-bottom: 1px solid #16a085;
+    margin-bottom: 10px;
+  }
+    
+  td {
+    text-align: center;
+    border-right: 2px solid #16a085;
+
+  } */

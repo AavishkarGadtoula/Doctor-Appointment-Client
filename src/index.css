@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* body{
+    background-image: url("./assets/bg-img/bg-image.jpg");
+    background-repeat: no-repeat;
+} */

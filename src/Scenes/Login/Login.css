@@ -1,0 +1,70 @@
+.add-patient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+}
+
+form {
+    max-width: 600px;
+    padding: 28px;
+    margin: 0 28px;
+    box-shadow: 0 15px 20px #8aa39e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 20px;
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.content:nth-child(2n) {
+    justify-content: end;
+}
+
+label {
+    width: 95%;
+    color: #2f4f4f;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.input-text {
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #16a085;
+    outline: none;
+}
+
+.input-text:is(:focus, valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #16a085;
+    margin-left: 7px;
+}
+
+.link:hover {
+    background: #16a066;
+}

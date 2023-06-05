@@ -1,0 +1,21 @@
+.top-navigation{
+    /* margin-left: 250px; */
+    height: 12vh;
+    box-shadow: 0 .5rem 1.5rem rgba(75, 75, 75, 0.1);
+}
+
+.profile-icon{
+    color: #16a085;
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.notification{
+    color: #16a085;
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
